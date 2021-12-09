@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">Xeora App</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="xeora_home">XEORA BERANDA</string>
+    <string name="categories">KATEGORI</string>
+    <string name="berita">BERITA TERKINI</string>
+
+    <string name="artikel1">Keberanian Dalam Islam Disebut\nSyaja\'ah: Penjelasan dan \nHaditsnya Lengkap</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="xeora_dzikir">XEORA DZIKIR</string>
+    <string name="doa">Doa Harian</string>
+    <string name="doa_sehari_hari">Doa Sehari Hari</string>
+    <string name="xeora_doa">XEORA DOA</string>
+
+
+    <string name="txt_deskripsi">Tobat Lah Sebelum Terlambat</string>
+
+    <!--card view pertama-->
+    <string name="txt_deskripsi_1">Tata Cara Shalat Jenazah (Menyalatkan Mayit)</string>
+    <string name="txt_stasiun_tv">muslim.or.id</string>
+    <string name="waktu">2 Jam yang lalu</string>
+
+    <!--card view kedua-->
+    <string name="txt_deskripsi_2">Proses Masuk dan Berkembangnya Agama Islam di Indonesia</string>
+    <string name="txt_stasiun_tv_2">kelaspintar.id</string>
+    <string name="waktu_2">1 Jam yang lalu</string>
+
+    <!--card view ketiga-->
+    <string name="txt_deskripsi_3">Panduan Praktis Tata Cara Wudhu</string>
+    <string name="txt_stasiun_tv_3">muslim.or.id</string>
+    <string name="waktu_3">24 Menit yang lalu</string>
+
+
+</resources>

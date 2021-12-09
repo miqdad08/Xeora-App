@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F7F6F2"
+    android:orientation="vertical"
+    tools:context=".DzikirActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="30dp"
+        android:layout_height="wrap_content">
+
+    <ImageButton
+        android:id="@+id/img_btn_back"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_gravity="center"
+        android:layout_marginStart="20dp"
+        android:background="@drawable/btn_back"/>
+
+    <TextView
+        android:id="@+id/xeora_dzikir"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="30dp"
+        android:layout_gravity="center"
+        android:text="@string/xeora_dzikir"
+        android:textAppearance="@style/xeora_home"
+        android:textSize="28sp"
+        android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/cv_dzikir_pg"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="20dp"
+        app:cardCornerRadius="20dp"
+        app:cardElevation="0dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginStart="10dp"
+                android:text="Dzikir Pagi"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:layout_width="117dp"
+                android:layout_height="80dp"
+                android:layout_gravity="center"
+                android:layout_marginStart="70dp"
+                android:src="@drawable/dzipagi" />
+
+        </LinearLayout>
+
+
+    </com.google.android.material.card.MaterialCardView>
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/cv_dzikir_ptg"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        app:cardCornerRadius="20dp"
+        app:cardElevation="0dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginStart="10dp"
+                android:text="Dzikir Petang"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:layout_width="117dp"
+                android:layout_height="80dp"
+                android:layout_gravity="center"
+                android:layout_marginStart="40dp"
+                android:src="@drawable/dzipetang" />
+
+        </LinearLayout>
+
+
+    </com.google.android.material.card.MaterialCardView>
+
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/cv_sunnah_dzikir"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        app:cardCornerRadius="20dp"
+        app:cardElevation="0dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginStart="10dp"
+                android:text="Dzikir"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:layout_width="117dp"
+                android:layout_height="80dp"
+                android:layout_gravity="center"
+                android:layout_marginEnd="10dp"
+                android:layout_marginStart="120dp"
+                android:src="@drawable/snnhqaul" />
+
+        </LinearLayout>
+
+
+    </com.google.android.material.card.MaterialCardView>
+
+
+
+</LinearLayout>
