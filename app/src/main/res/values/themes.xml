@@ -39,4 +39,10 @@
         <item name="shapeAppearanceOverlay">@style/ShapeAppearanceOverlay_card_custom_corners</item>
     </style>
 
+    <style name="Theme.XEORAApp.SplashTheme">
+        <item name="windowNoTitle">true</item>
+        <item name="windowActionBar">false</item>
+        <item name="android:background">@drawable/bg_splash_screen</item>
+    </style>
+
 </resources>

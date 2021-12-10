@@ -15,6 +15,11 @@
         android:name="com.miqdad.xeoraapp.ui.NewsFragment"
         android:label="News"
         tools:layout="@layout/fragment_news" />
+    <activity
+        android:id="@+id/detailArtikelActivity"
+        android:name="com.miqdad.xeoraapp.DetailArtikelActivity"
+        android:label="activity_detail_artikel"
+        tools:layout="@layout/activity_detail_artikel" />
 
 
 </navigation>

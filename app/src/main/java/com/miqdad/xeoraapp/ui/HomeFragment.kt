@@ -67,9 +67,12 @@ class HomeFragment : Fragment() {
             startActivity(intent)
         }
 
-        val cvArtikel: CardView = view.findViewById(R.id.cv_artikel)
-        cvArtikel.setOnClickListener{
-            val intent = Intent(activity, ArtikelActivity::class.java)
+
+        binding.cvArtikel.setOnClickListener {
+            val intent = Intent(activity, DetailArtikelActivity::class.java)
+            intent.putExtra(DetailArtikelActivity.DATA_TITLE, DataArtikel.titleDetailArtikel[1])
+            intent.putExtra(DetailArtikelActivity.DATA_DESC, DataArtikel.descDetailArtikel[1])
+            intent.putExtra(DetailArtikelActivity.DATA_IMAGE, DataArtikel.imageDetailArtikel[1])
             startActivity(intent)
         }
 

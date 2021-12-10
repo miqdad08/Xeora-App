@@ -32,6 +32,10 @@
     <string name="txt_deskripsi_3">Panduan Praktis Tata Cara Wudhu</string>
     <string name="txt_stasiun_tv_3">muslim.or.id</string>
     <string name="waktu_3">24 Menit yang lalu</string>
+    <string name="nama_aplikasi">XEORA APP</string>
+    <string name="desc_awal">Aplikasi Muslim Terbaik</string>
+    <string name="desc_akhir">Kita Semua</string>
+    <string name="start">Get Started</string>
 
 
 </resources>

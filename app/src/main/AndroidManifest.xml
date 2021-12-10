@@ -10,7 +10,17 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.XEORAApp">
         <activity
-            android:name=".ArtikelActivity"
+            android:name=".SplashScreen"
+            android:exported="true"
+            android:theme="@style/Theme.XEORAApp.SplashTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ApplicationStarted"
             android:exported="true" />
         <activity
             android:name=".SunnahQauliyah"
@@ -35,13 +45,7 @@
             android:exported="true" />
         <activity
             android:name=".MainActivity"
-            android:exported="true">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
+            android:exported="true"/>
     </application>
 
 </manifest>
