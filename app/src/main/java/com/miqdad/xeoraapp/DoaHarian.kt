@@ -20,12 +20,12 @@ class DoaHarian : AppCompatActivity(), View.OnClickListener {
         rvDoaHarian.adapter = DzikirAdapter(DataDzikirDoa.listDoa)
 
         val imgBtnDoa: ImageButton = findViewById(R.id.img_btn_back_doa)
-
+        imgBtnDoa.setOnClickListener(this)
     }
 
     override fun onClick(v: View?) {
         when (v?.id) {
-            R.id.img_doa -> startActivity(
+            R.id.img_btn_back_doa -> startActivity(
                 Intent(
                     this, MainActivity::class.java
                 )
