@@ -52,6 +52,8 @@ class DetailArtikelActivity : AppCompatActivity(), View.OnClickListener {
         imgBtn.setOnClickListener(this)
 
 
+
+
     }
 
 //    override fun onContextItemSelected(item: MenuItem): Boolean {
