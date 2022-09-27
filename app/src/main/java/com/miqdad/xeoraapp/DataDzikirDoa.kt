@@ -1,6 +1,5 @@
 package com.miqdad.xeoraapp
 
-import com.miqdad.xeoraapp.data.Artikel
 import com.miqdad.xeoraapp.data.DzikirDoa
 
 object DataDzikirDoa {
@@ -74,7 +73,7 @@ object DataDzikirDoa {
     val listDzikirPagi: ArrayList<DzikirDoa>
         get() {
             val list = arrayListOf<DzikirDoa>()
-            for (data in descDzikirPagi.indices){
+            for (data in descDzikirPagi.indices) {
                 val dzikir = DzikirDoa(
                     descDzikirPagi[data],
                     lafazDzikirPagi[data],
@@ -151,7 +150,7 @@ object DataDzikirDoa {
     val listDzikirPetang: ArrayList<DzikirDoa>
         get() {
             val list = arrayListOf<DzikirDoa>()
-            for (data in descDzikirPetang.indices){
+            for (data in descDzikirPetang.indices) {
                 val dzikir = DzikirDoa(
                     descDzikirPetang[data],
                     lafazDzikirPetang[data],
@@ -196,7 +195,7 @@ object DataDzikirDoa {
     val listDzikir: ArrayList<DzikirDoa>
         get() {
             val list = arrayListOf<DzikirDoa>()
-            for (data in descDzikir.indices){
+            for (data in descDzikir.indices) {
                 val dzikir = DzikirDoa(
                     descDzikir[data],
                     lafazDzikir[data],
@@ -361,19 +360,19 @@ object DataDzikirDoa {
     )
 
     val listHadist: ArrayList<DzikirDoa>
-    get() {
-        val list = arrayListOf<DzikirDoa>()
-        for (data in hadistArab.indices) {
-            val hadist = DzikirDoa(
-                hadistTitle[data],
-                hadistArab[data],
-                hadistArti[data]
-            )
-            list.add(hadist)
-        }
-        return list
+        get() {
+            val list = arrayListOf<DzikirDoa>()
+            for (data in hadistArab.indices) {
+                val hadist = DzikirDoa(
+                    hadistTitle[data],
+                    hadistArab[data],
+                    hadistArti[data]
+                )
+                list.add(hadist)
+            }
+            return list
 
-    }
+        }
 
     private val doaTitle = arrayOf(
         "1. Doa Sebelum Tidur",
@@ -415,54 +414,16 @@ object DataDzikirDoa {
     )
 
     val listDoa: ArrayList<DzikirDoa>
-    get() {
-        val list = arrayListOf<DzikirDoa>()
-        for (data in doaTitle.indices){
-            val doa = DzikirDoa(
-            doaTitle[data],
-            doaArab[data],
-            artiDoa[data]
-            )
-            list.add(doa)
-        }
-        return list
-    }
-
-    private val titleArtikel = arrayOf(
-        "IDN Relawan",
-        "Membuat IOT",
-        "IDN Mengajar"
-    )
-
-
-
-
-    private val descArtikel = arrayOf(
-        "Salah satu cara kita mengetahui kadar keimanan kita adalah dengan melihat apakah kita suka bersedekah atau tidak. Bersedekah tidak harus banyak dan tidak harus dengan uang, sehingga tidak kaya atau tidak punya uang bukanlah menjadi alasan kita untuk tidak bersedekah. Bersedekah dengan uang Rp 10.000, Rp 20.000, atau Rp 50.000 itu sudah cukup. Atau bersedekah dengan beras yang kita miliki sebanyak satu kilo atau dua kilo, ini pun sudah cukup. Sedekah adalah bukti keimanan. Bukti keimanan kita terhadap hari akhir, bahwasanya kelak di hari kiamat kita akan mendapat balasan pahala dari Allah, meskipun di dunia kita tidak mendapatkan apa-apa. Kita lelah bekerja mencari uang dan harta, lalu uang tersebut kita berikan tanpa kompensasi dan kita hanya berharap balasan di hari kiamat kelak.",
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
-
-    )
-
-    private val imgArtikel = intArrayOf(
-        R.drawable.img,
-        R.drawable.bgdoa
-    )
-
-
-    val listArtikel: ArrayList<Artikel>
         get() {
-            val list = arrayListOf<Artikel>()
-            for (data in titleArtikel.indices){
-                val dzikir = Artikel(
-                    titleArtikel = titleArtikel[data],
-                    descArtikel = descArtikel[data],
-                    imageArtikel = imgArtikel[data]
+            val list = arrayListOf<DzikirDoa>()
+            for (data in doaTitle.indices) {
+                val doa = DzikirDoa(
+                    doaTitle[data],
+                    doaArab[data],
+                    artiDoa[data]
                 )
-                list.add(dzikir)
+                list.add(doa)
             }
             return list
         }
-
-
 }

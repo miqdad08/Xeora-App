@@ -13,24 +13,17 @@ import com.miqdad.xeoraapp.databinding.FragmentNewsBinding
 
 class DetailArtikelActivity : AppCompatActivity(), View.OnClickListener {
 
-    private lateinit var  binding: ActivityDetailArtikelBinding
+    private lateinit var binding: ActivityDetailArtikelBinding
 
-    companion object{
+    companion object {
         const val DATA_TITLE = "title"
         const val DATA_DESC = "data"
         const val DATA_IMAGE = "image"
     }
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         supportActionBar?.hide()
-
-        var actionBar = supportActionBar
-
-//        if (actionBar != null){
-//            actionBar.setHomeAsUpIndicator(R.id.img_btn_back_detail)
-//
-//            actionBar.setDisplayHomeAsUpEnabled(true)
-//        }
 
         setContentView(R.layout.activity_detail_artikel)
 
@@ -48,17 +41,9 @@ class DetailArtikelActivity : AppCompatActivity(), View.OnClickListener {
         val imgArtikel: ImageView = findViewById(R.id.img_detail)
         imgArtikel.setImageResource(dataImage)
 
-        val imgBtn : ImageButton = findViewById(R.id.img_btn_back_detail)
+        val imgBtn: ImageButton = findViewById(R.id.img_btn_back_detail)
         imgBtn.setOnClickListener(this)
-
-
     }
-
-//    override fun onContextItemSelected(item: MenuItem): Boolean {
-//        when (item.itemId){
-//            android.R
-//        }
-//    }
 
     override fun onSupportNavigateUp(): Boolean {
         onBackPressed()
@@ -66,10 +51,11 @@ class DetailArtikelActivity : AppCompatActivity(), View.OnClickListener {
     }
 
     override fun onClick(v: View?) {
-        when(v?.id){
+        when (v?.id) {
             R.id.img_btn_back_detail -> startActivity(
                 Intent(
-                this, MainActivity::class.java)
+                    this, MainActivity::class.java
+                )
 
             )
         }

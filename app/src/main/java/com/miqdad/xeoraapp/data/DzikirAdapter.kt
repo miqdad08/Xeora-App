@@ -15,7 +15,6 @@ class DzikirAdapter(private val listDzikirDoa: ArrayList<DzikirDoa>) : // constr
         val tvDesc: TextView = view.findViewById(R.id.tv_desc)
         val tvLafaz: TextView = view.findViewById(R.id.tv_lafaz)
         val tvTerjemah: TextView = view.findViewById(R.id.tv_terjemahan)
-
     }
 
     // digunakan untuk menampilkan data sesuai dengan view yang ada/
@@ -24,7 +23,6 @@ class DzikirAdapter(private val listDzikirDoa: ArrayList<DzikirDoa>) : // constr
         LayoutInflater.from(parent.context).inflate(R.layout.row_detail_pagi, parent, false)
     )
 
-
     override fun onBindViewHolder(holder: DzikirAdapter.MyViewHolder, position: Int) {
         holder.tvDesc.text = listDzikirDoa[position].desc
         holder.tvLafaz.text = listDzikirDoa[position].lafaz
@@ -32,5 +30,4 @@ class DzikirAdapter(private val listDzikirDoa: ArrayList<DzikirDoa>) : // constr
     }
 
     override fun getItemCount() = listDzikirDoa.size
-
 }

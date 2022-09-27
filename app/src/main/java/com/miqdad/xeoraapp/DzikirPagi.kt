@@ -19,20 +19,17 @@ class DzikirPagi : AppCompatActivity(), View.OnClickListener {
         rvDzikirPagi.layoutManager = LinearLayoutManager(this)
         rvDzikirPagi.adapter = DzikirAdapter(DataDzikirDoa.listDzikirPagi)
 
-        val imgBtnpg : ImageButton = findViewById(R.id.img_btn_back_pg)
+        val imgBtnpg: ImageButton = findViewById(R.id.img_btn_back_pg)
         imgBtnpg.setOnClickListener(this)
-
     }
 
     override fun onClick(v: View?) {
-        when(v?.id){
+        when (v?.id) {
             R.id.img_btn_back_pg -> startActivity(
                 Intent(
-                this, DzikirActivity::class.java)
+                    this, DzikirActivity::class.java
+                )
             )
-
         }
     }
-
-
 }

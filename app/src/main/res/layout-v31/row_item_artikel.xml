@@ -1,15 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:paddingEnd="10dp"
     android:paddingStart="10dp"
-    android:paddingEnd="10dp">
+    >
 
     <com.google.android.material.card.MaterialCardView
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:cardCornerRadius="20dp">
+        app:cardCornerRadius="20dp"
+        android:layout_height="wrap_content">
 
         <ImageView
             android:id="@+id/img_artikel"
@@ -17,8 +18,8 @@
             android:layout_height="match_parent"
             android:background="@drawable/img"
             android:clipToOutline="true"
-            android:scaleType="centerCrop"
-            android:src="@drawable/img" />
+            android:src="@drawable/img"
+            android:scaleType="centerCrop"/>
 
     </com.google.android.material.card.MaterialCardView>
 

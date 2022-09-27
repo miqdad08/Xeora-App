@@ -27,6 +27,7 @@
         android:layout_marginLeft="30dp"
         android:layout_gravity="center"
         android:text="DETAIL"
+        android:fontFamily="@font/poppins"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintStart_toEndOf="@+id/img_btn_back_detail"
         android:textAppearance="@style/xeora_home"
@@ -76,11 +77,12 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="8dp"
                 android:layout_marginBottom="16dp"
-                android:fontFamily="sans-serif-black"
+                android:fontFamily="@font/poppins"
                 android:layout_marginStart="20dp"
                 android:paddingEnd="16dp"
                 android:textColor="@color/black"
                 android:textSize="20sp"
+
                 android:textStyle="bold"
                 app:layout_constraintBottom_toBottomOf="@+id/cv_img_detail"
                 app:layout_constraintTop_toBottomOf="@id/cv_img_detail"
@@ -101,6 +103,7 @@
                 android:layout_height="wrap_content"
                 android:layout_margin="8dp"
                 android:layout_marginBottom="10dp"
+                android:fontFamily="@font/poppins"
                 android:textSize="18sp"/>
 
         </androidx.cardview.widget.CardView>

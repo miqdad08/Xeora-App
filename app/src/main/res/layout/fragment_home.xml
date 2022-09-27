@@ -19,6 +19,7 @@
         android:layout_marginLeft="20dp"
         android:layout_marginTop="20dp"
         android:gravity="top"
+        android:fontFamily="@font/poppins"
         android:text="Beranda"
         android:textAppearance="@style/xeora_home"
         android:textSize="28sp"
@@ -43,6 +44,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:gravity="top"
+            android:fontFamily="@font/poppins"
             android:text="@string/categories"
             android:textAppearance="@style/categories"
             android:textSize="22sp"
@@ -93,6 +95,8 @@
                         android:layout_height="wrap_content"
                         android:text="Dzikir"
                         android:textStyle="bold"
+                        android:textColor="@color/black"
+                        android:fontFamily="@font/poppins"
                         android:layout_marginTop="3dp"
                         android:textSize="15dp"/>
 
@@ -128,6 +132,9 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="Hadist"
+
+                        android:textColor="@color/black"
+                        android:fontFamily="@font/poppins"
                         android:textStyle="bold"
                         android:layout_marginTop="3dp"
                         android:textSize="15sp"/>
@@ -162,10 +169,12 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Doa Doa"
-                        android:textStyle="bold"
                         android:layout_marginTop="3dp"
-                        android:textSize="15dp"/>
+                        android:textColor="@color/black"
+                        android:fontFamily="@font/poppins"
+                        android:text="Doa Doa"
+                        android:textSize="15dp"
+                        android:textStyle="bold" />
                 </LinearLayout>
             </androidx.cardview.widget.CardView>
 
@@ -183,6 +192,9 @@
             android:layout_height="30dp"
             android:gravity="top"
             android:text="@string/berita"
+
+            android:textColor="@color/black"
+            android:fontFamily="@font/poppins"
             android:textAppearance="@style/categories"
             android:textSize="22sp"
             android:textStyle="bold" />
@@ -213,9 +225,10 @@
             android:layout_marginStart="10dp"
             android:layout_marginTop="10dp"
             android:maxLines="3"
+            android:fontFamily="@font/poppins"
             android:text="@string/txt_deskripsi_1"
             android:textColor="@color/black"
-            android:textSize="19sp"
+            android:textSize="17sp"
             android:textStyle="bold" />
 
         <TextView
@@ -226,6 +239,7 @@
             android:layout_marginStart="10dp"
             android:layout_marginBottom="10dp"
             android:text="@string/txt_stasiun_tv"
+            android:fontFamily="@font/poppins"
             android:textColor="@color/dark_gray"
             android:textSize="12sp" />
 
@@ -235,6 +249,7 @@
             android:layout_height="wrap_content"
             android:layout_gravity="bottom|end"
             android:layout_marginEnd="5dp"
+            android:fontFamily="@font/poppins"
             android:layout_marginBottom="10dp"
             android:text="@string/waktu"
             android:textColor="@color/dark_gray"

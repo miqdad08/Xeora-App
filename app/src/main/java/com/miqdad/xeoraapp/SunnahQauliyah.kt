@@ -15,24 +15,21 @@ class SunnahQauliyah : AppCompatActivity(), View.OnClickListener {
         setContentView(R.layout.activity_sunnah_qauliyah)
         supportActionBar?.hide()
 
-
         val rvQauliyyah: RecyclerView = findViewById(R.id.rv_dzikir)
         rvQauliyyah.layoutManager = LinearLayoutManager(this)
         rvQauliyyah.adapter = DzikirAdapter(DataDzikirDoa.listDzikir)
 
-        val imgBtndzikir : ImageButton = findViewById(R.id.img_btn_back_dzikir)
+        val imgBtndzikir: ImageButton = findViewById(R.id.img_btn_back_dzikir)
         imgBtndzikir.setOnClickListener(this)
     }
 
     override fun onClick(v: View?) {
-        when(v?.id){
+        when (v?.id) {
             R.id.img_btn_back_dzikir -> startActivity(
                 Intent(
-                    this, DzikirActivity::class.java)
+                    this, DzikirActivity::class.java
+                )
             )
-
         }
     }
-
-
 }

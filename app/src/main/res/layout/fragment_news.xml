@@ -38,35 +38,35 @@
             android:orientation="vertical">
 
 
-    <androidx.cardview.widget.CardView
-        android:id="@+id/cv_artikel1"
-        android:layout_width="match_parent"
-        android:layout_height="165dp"
-        android:layout_marginStart="20dp"
-        android:layout_marginEnd="20dp"
-        android:layout_marginTop="10dp"
-        app:cardCornerRadius="20dp"
-        app:cardElevation="0dp"
-        app:layout_constraintTop_toBottomOf="@id/title_news">
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cv_artikel1"
+                android:layout_width="match_parent"
+                android:layout_height="165dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginTop="10dp"
+                app:cardCornerRadius="20dp"
+                app:cardElevation="0dp"
+                app:layout_constraintTop_toBottomOf="@id/title_news">
 
-        <ImageView
-            android:layout_width="match_parent"
-            android:layout_height="120dp"
-            android:scaleType="centerCrop"
-            android:src="@drawable/tobat" />
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="120dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/tobat" />
 
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="10dp"
-            android:layout_marginTop="125dp"
-            android:layout_marginEnd="20dp"
-            android:text="@string/txt_deskripsi"
-            android:textColor="@color/black"
-            android:textSize="17sp"
-            android:textStyle="bold" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="125dp"
+                    android:layout_marginEnd="20dp"
+                    android:text="@string/txt_deskripsi"
+                    android:textColor="@color/black"
+                    android:textSize="17sp"
+                    android:textStyle="bold" />
 
-    </androidx.cardview.widget.CardView>
+            </androidx.cardview.widget.CardView>
 
 
 

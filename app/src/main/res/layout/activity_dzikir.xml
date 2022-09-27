@@ -28,6 +28,8 @@
         android:layout_alignParentTop="true"
         android:layout_marginLeft="30dp"
         android:layout_gravity="center"
+
+        android:fontFamily="@font/poppins"
         android:text="@string/xeora_dzikir"
         android:textAppearance="@style/xeora_home"
         android:textSize="28sp"
@@ -54,6 +56,7 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:layout_marginStart="10dp"
+                android:fontFamily="@font/poppins"
                 android:text="Dzikir Pagi"
                 android:textSize="25dp"
                 android:textStyle="bold" />
@@ -90,6 +93,7 @@
                 android:layout_gravity="center"
                 android:layout_marginStart="10dp"
                 android:text="Dzikir Petang"
+                android:fontFamily="@font/poppins"
                 android:textSize="25dp"
                 android:textStyle="bold" />
 
@@ -126,6 +130,7 @@
                 android:layout_gravity="center"
                 android:layout_marginStart="10dp"
                 android:text="Dzikir"
+                android:fontFamily="@font/poppins"
                 android:textSize="25dp"
                 android:textStyle="bold" />
 
