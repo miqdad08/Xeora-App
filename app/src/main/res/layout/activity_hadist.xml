@@ -1,12 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:background="@color/background">
-
-
 
     <ImageButton
         android:id="@+id/img_btn_back_hadist"
@@ -33,7 +30,6 @@
         android:textAppearance="@style/xeora_home"
         android:textSize="28sp"
         android:textStyle="bold" />
-
 
     <TextView
         android:id="@+id/tv_detail_doa"
@@ -91,6 +87,5 @@
         </androidx.constraintlayout.widget.ConstraintLayout>
 
     </androidx.core.widget.NestedScrollView>
-
 
 </androidx.constraintlayout.widget.ConstraintLayout>

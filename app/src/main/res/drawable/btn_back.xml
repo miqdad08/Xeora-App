@@ -3,20 +3,19 @@
 
     <item>
         <shape android:shape="oval">
-            <solid android:color="@color/white"/>
+            <solid android:color="@color/white" />
             <size
                 android:width="50dp"
-                android:height="50dp"/>
+                android:height="50dp" />
 
         </shape>
-    </item>
 
+    </item>
     <item android:drawable="@drawable/ic_bac">
 
         <bitmap
-
             android:gravity="center"
-            android:src="@drawable/ic_bac"/>
+            android:src="@drawable/ic_bac" />
 
     </item>
 

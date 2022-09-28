@@ -1,6 +1,4 @@
-package com.miqdad.xeoraapp
-
-import com.miqdad.xeoraapp.data.DzikirDoa
+package com.miqdad.xeoraapp.data
 
 object DataDzikirDoa {
 

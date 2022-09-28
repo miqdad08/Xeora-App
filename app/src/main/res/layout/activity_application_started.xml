@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:background="@color/background">
 
     <ImageView
@@ -10,8 +10,8 @@
         android:layout_width="325dp"
         android:layout_height="325dp"
         android:layout_marginStart="8dp"
-        android:layout_marginEnd="8dp"
         android:layout_marginTop="76dp"
+        android:layout_marginEnd="8dp"
         android:src="@drawable/logo"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -23,42 +23,42 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
+        android:fontFamily="@font/poppins"
         android:text="@string/nama_aplikasi"
+        android:textColor="@color/black"
         android:textSize="35dp"
         android:textStyle="bold"
-        android:fontFamily="@font/poppins"
-        android:textColor="@color/black"
-        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/img_logo"/>
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/img_logo" />
 
     <TextView
         android:id="@+id/desc_app"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="28dp"
+        android:fontFamily="@font/poppins"
         android:text="@string/desc_awal"
+        android:textColor="@color/grey"
         android:textSize="18dp"
         android:textStyle="normal"
-        android:fontFamily="@font/poppins"
-        android:textColor="@color/grey"
-        app:layout_constraintTop_toBottomOf="@id/nama_aplikasi"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"/>
+        app:layout_constraintTop_toBottomOf="@id/nama_aplikasi" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="30dp"
+        android:fontFamily="@font/poppins"
         android:text="@string/desc_akhir"
+        android:textColor="@color/grey"
         android:textSize="18dp"
         android:textStyle="normal"
-        android:fontFamily="@font/poppins"
-        android:textColor="@color/grey"
         app:layout_constraintBottom_toTopOf="@+id/cv_start"
-        app:layout_constraintTop_toBottomOf="@id/desc_app"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"/>
+        app:layout_constraintTop_toBottomOf="@id/desc_app" />
 
     <com.google.android.material.card.MaterialCardView
         android:id="@+id/cv_start"
@@ -67,9 +67,9 @@
         android:layout_marginTop="54dp"
         app:cardBackgroundColor="@color/hijo"
         app:cardCornerRadius="50dp"
-        app:layout_constraintTop_toBottomOf="@+id/desc_app"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent">
+        app:layout_constraintTop_toBottomOf="@+id/desc_app">
 
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
@@ -78,21 +78,18 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:fontFamily="@font/poppins"
                 android:text="@string/start"
                 android:textColor="@color/white"
                 android:textSize="25dp"
                 android:textStyle="bold"
-
-                android:fontFamily="@font/poppins"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintTop_toTopOf="parent"/>
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
 
         </androidx.constraintlayout.widget.ConstraintLayout>
 
-
     </com.google.android.material.card.MaterialCardView>
-
 
 </androidx.constraintlayout.widget.ConstraintLayout>

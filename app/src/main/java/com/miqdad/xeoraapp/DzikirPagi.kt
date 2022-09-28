@@ -7,6 +7,7 @@ import android.view.View
 import android.widget.ImageButton
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
+import com.miqdad.xeoraapp.data.DataDzikirDoa
 import com.miqdad.xeoraapp.data.DzikirAdapter
 
 class DzikirPagi : AppCompatActivity(), View.OnClickListener {

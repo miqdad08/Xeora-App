@@ -6,7 +6,6 @@ import android.os.Bundle
 import android.view.View
 import android.widget.ImageButton
 import androidx.cardview.widget.CardView
-import com.miqdad.xeoraapp.data.DzikirPetang
 
 class DzikirActivity : AppCompatActivity(), View.OnClickListener {
     override fun onCreate(savedInstanceState: Bundle?) {

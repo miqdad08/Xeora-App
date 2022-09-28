@@ -1,4 +1,4 @@
-package com.miqdad.xeoraapp.data
+package com.miqdad.xeoraapp
 
 import android.content.Intent
 import android.os.Bundle
@@ -7,9 +7,8 @@ import android.widget.ImageButton
 import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
-import com.miqdad.xeoraapp.DataDzikirDoa
-import com.miqdad.xeoraapp.DzikirActivity
-import com.miqdad.xeoraapp.R
+import com.miqdad.xeoraapp.data.DataDzikirDoa
+import com.miqdad.xeoraapp.data.DzikirAdapter
 
 class DzikirPetang : AppCompatActivity(), View.OnClickListener {
     override fun onCreate(savedInstanceState: Bundle?) {

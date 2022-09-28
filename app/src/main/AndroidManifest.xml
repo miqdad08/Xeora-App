@@ -31,7 +31,7 @@
             android:name=".HadistActivity"
             android:exported="true" />
         <activity
-            android:name=".data.DzikirPetang"
+            android:name=".DzikirPetang"
             android:exported="true" />
         <activity
             android:name=".DzikirPagi"
